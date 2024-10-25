@@ -11,3 +11,4 @@ public class Phone extends Device {
         return type;
     }
 }
+
