@@ -29,7 +29,8 @@ public abstract class Device implements Printable {
 
     @Override
     public String print() {
-        String info = "Price: " + price + "\nId: " + id + "\nIp: " + ip + "\nType: " + getDeviceType();
+        String info = "Price: " + price + "\nId: " + id + "\nIp: " + ip +
+        "\nType: " + getDeviceType();
         return info; 
     }
 
